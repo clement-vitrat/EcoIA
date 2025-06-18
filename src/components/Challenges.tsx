@@ -150,7 +150,7 @@ const Challenges: React.FC = () => {
             <div className="text-gray-600">CO₂ économisé cette semaine</div>
           </div>
           <div className="bg-white/80 backdrop-blur-sm p-6 rounded-2xl text-center border border-orange-100">
-            <div className="text-3xl font-bold text-orange-600 mb-2">156</div>
+            <div className="text-3xl font-bold text-orange-600 mb-2">6</div>
             <div className="text-gray-600">Nouveaux défis ce mois</div>
           </div>
         </div>
