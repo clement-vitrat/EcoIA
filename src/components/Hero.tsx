@@ -13,11 +13,6 @@ const Hero: React.FC = () => {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
         <div className="text-center">
-          <div className="inline-flex items-center bg-white/80 backdrop-blur-sm px-4 py-2 rounded-full border border-emerald-200 mb-8">
-            <Zap className="h-4 w-4 text-emerald-600 mr-2" />
-            <span className="text-sm font-medium text-emerald-800">Powered by AI • 100% gratuit</span>
-          </div>
-
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-gray-900 mb-6 leading-tight">
             <span className="bg-gradient-to-r from-emerald-600 via-teal-600 to-sky-600 bg-clip-text text-transparent">
               Chaque geste compte
