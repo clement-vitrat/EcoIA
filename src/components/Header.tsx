@@ -9,14 +9,13 @@ const Header: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center space-x-2">
-            <div className="bg-gradient-to-br from-emerald-500 to-teal-600 p-2 rounded-xl">
-              <Leaf className="h-8 w-8 text-white" />
+            <div className="rounded-xl">
+              <img src="/src/public/img/favicon.ico" alt="Logo" className="h-8 w-8" />
             </div>
             <div>
               <h1 className="text-2xl font-bold bg-gradient-to-r from-emerald-600 to-teal-600 bg-clip-text text-transparent">
                 EcoIA
               </h1>
-              <p className="text-xs text-gray-600 -mt-1">Powered by AI</p>
             </div>
           </div>
 

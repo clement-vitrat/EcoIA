@@ -9,18 +9,16 @@ const Footer: React.FC = () => {
           {/* Brand */}
           <div className="lg:col-span-1">
             <div className="flex items-center space-x-2 mb-6">
-              <div className="bg-gradient-to-br from-emerald-500 to-teal-600 p-2 rounded-xl">
-                <Leaf className="h-8 w-8 text-white" />
+              <div className="rounded-xl">
+                <img src="/src/public/img/favicon.ico" alt="Logo" className="h-8 w-8" />
               </div>
               <div>
                 <h3 className="text-2xl font-bold bg-gradient-to-r from-emerald-400 to-teal-400 bg-clip-text text-transparent">
                   EcoIA
                 </h3>
-                <p className="text-xs text-gray-400 -mt-1">Powered by AI</p>
               </div>
             </div>
             <p className="text-gray-300 mb-6 leading-relaxed">
-              Transformez votre quotidien avec l'intelligence artificielle pour un avenir plus durable. 
               Chaque geste compte pour notre planète.
             </p>
             <div className="flex space-x-4">
@@ -46,7 +44,6 @@ const Footer: React.FC = () => {
               <li><a href="#home" className="text-gray-300 hover:text-emerald-400 transition-colors">Accueil</a></li>
               <li><a href="#calculator" className="text-gray-300 hover:text-emerald-400 transition-colors">Calculateur</a></li>
               <li><a href="#challenges" className="text-gray-300 hover:text-emerald-400 transition-colors">Défis</a></li>
-              <li><a href="#education" className="text-gray-300 hover:text-emerald-400 transition-colors">Éducation</a></li>
             </ul>
           </div>
 
@@ -54,10 +51,8 @@ const Footer: React.FC = () => {
           <div>
             <h4 className="text-lg font-semibold mb-6">Ressources</h4>
             <ul className="space-y-3">
-              <li><a href="#" className="text-gray-300 hover:text-emerald-400 transition-colors">Guide écologique</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-emerald-400 transition-colors">FAQ</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-emerald-400 transition-colors">Blog</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-emerald-400 transition-colors">Études de cas</a></li>
+              <li><a href="https://www.ecologie.gouv.fr/politiques-publiques/collection-guides" className="text-gray-300 hover:text-emerald-400 transition-colors">Guide écologique</a></li>
+              <li><a href="https://www.ecologie.gouv.fr/politiques-publiques/collection-guides" className="text-gray-300 hover:text-emerald-400 transition-colors">Études de cas</a></li>
             </ul>
           </div>
 
