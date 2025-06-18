@@ -24,16 +24,16 @@ const Footer: React.FC = () => {
               Chaque geste compte pour notre planète.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="bg-gray-800 p-2 rounded-lg hover:bg-emerald-600 transition-colors">
+              <a href="https://www.instagram.com/clement_cvz/" className="bg-gray-800 p-2 rounded-lg hover:bg-emerald-600 transition-colors">
                 <Facebook className="h-5 w-5" />
               </a>
-              <a href="#" className="bg-gray-800 p-2 rounded-lg hover:bg-emerald-600 transition-colors">
+              <a href="https://www.instagram.com/clement_cvz/" className="bg-gray-800 p-2 rounded-lg hover:bg-emerald-600 transition-colors">
                 <Twitter className="h-5 w-5" />
               </a>
-              <a href="#" className="bg-gray-800 p-2 rounded-lg hover:bg-emerald-600 transition-colors">
+              <a href="https://www.instagram.com/clement_cvz/" className="bg-gray-800 p-2 rounded-lg hover:bg-emerald-600 transition-colors">
                 <Instagram className="h-5 w-5" />
               </a>
-              <a href="#" className="bg-gray-800 p-2 rounded-lg hover:bg-emerald-600 transition-colors">
+              <a href="https://www.instagram.com/clement_cvz/" className="bg-gray-800 p-2 rounded-lg hover:bg-emerald-600 transition-colors">
                 <Youtube className="h-5 w-5" />
               </a>
             </div>

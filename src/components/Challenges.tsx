@@ -227,21 +227,6 @@ const Challenges: React.FC = () => {
           })}
         </div>
 
-        {/* CTA */}
-        <div className="text-center mt-16">
-          <div className="bg-white/90 backdrop-blur-sm rounded-3xl p-8 border border-emerald-100 max-w-2xl mx-auto">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">
-              Créez votre propre défi
-            </h3>
-            <p className="text-gray-600 mb-6">
-              Vous avez une idée innovante pour protéger l'environnement ? 
-              Proposez votre défi à la communauté et inspirez des milliers de personnes.
-            </p>
-            <button className="bg-gradient-to-r from-emerald-500 to-teal-600 text-white px-8 py-3 rounded-full font-semibold hover:from-emerald-600 hover:to-teal-700 transition-all duration-200 shadow-lg hover:shadow-xl">
-              Proposer un défi
-            </button>
-          </div>
-        </div>
       </div>
     </section>
   );

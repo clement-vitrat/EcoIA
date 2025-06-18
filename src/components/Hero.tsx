@@ -33,13 +33,12 @@ const Hero: React.FC = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
-            <button className="bg-gradient-to-r from-emerald-500 to-teal-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:from-emerald-600 hover:to-teal-700 transition-all duration-200 flex items-center space-x-2 shadow-lg hover:shadow-xl hover:scale-105">
-              <span>Commencer maintenant</span>
-              <ArrowRight className="h-5 w-5" />
-            </button>
-            <button className="bg-white/80 backdrop-blur-sm text-emerald-700 px-8 py-4 rounded-full text-lg font-semibold hover:bg-white transition-all duration-200 border border-emerald-200 hover:border-emerald-300">
-              Découvrir l'IA écologique
-            </button>
+            <a href="#calculator">
+              <button className="bg-gradient-to-r from-emerald-500 to-teal-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:from-emerald-600 hover:to-teal-700 transition-all duration-200 flex items-center space-x-2 shadow-lg hover:shadow-xl hover:scale-105">
+                <span>Commencer maintenant</span>
+                <ArrowRight className="h-5 w-5" />
+              </button>
+            </a>              
           </div>
 
           {/* Stats */}

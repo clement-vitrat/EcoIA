@@ -31,13 +31,6 @@ const Header: React.FC = () => {
             <a href="#challenges" className="text-gray-700 hover:text-emerald-600 transition-colors font-medium">
               Défis
             </a>
-            <a href="#education" className="text-gray-700 hover:text-emerald-600 transition-colors font-medium">
-              Apprendre
-            </a>
-            <button className="bg-gradient-to-r from-emerald-500 to-teal-600 text-white px-6 py-2 rounded-full hover:from-emerald-600 hover:to-teal-700 transition-all duration-200 flex items-center space-x-2 shadow-lg hover:shadow-xl">
-              <Sparkles className="h-4 w-4" />
-              <span>Assistant IA</span>
-            </button>
           </nav>
 
           {/* Mobile menu button */}
@@ -62,13 +55,6 @@ const Header: React.FC = () => {
               <a href="#challenges" className="text-gray-700 hover:text-emerald-600 transition-colors">
                 Défis
               </a>
-              <a href="#education" className="text-gray-700 hover:text-emerald-600 transition-colors">
-                Apprendre
-              </a>
-              <button className="bg-gradient-to-r from-emerald-500 to-teal-600 text-white px-6 py-2 rounded-full hover:from-emerald-600 hover:to-teal-700 transition-all duration-200 flex items-center space-x-2 w-fit">
-                <Sparkles className="h-4 w-4" />
-                <span>Assistant IA</span>
-              </button>
             </nav>
           </div>
         )}

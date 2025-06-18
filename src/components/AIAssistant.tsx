@@ -223,7 +223,7 @@ L'IA s'améliore avec chaque interaction - plus vous l'utilisez, plus les consei
   };
 
   return (
-    <section className="py-20 bg-gradient-to-br from-emerald-50 via-teal-50 to-sky-50">
+    <section id="assistantIA" className="py-20 bg-gradient-to-br from-emerald-50 via-teal-50 to-sky-50">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <div className="inline-flex items-center bg-emerald-100 text-emerald-800 px-4 py-2 rounded-full mb-6">
@@ -342,24 +342,6 @@ L'IA s'améliore avec chaque interaction - plus vous l'utilisez, plus les consei
           </div>
         </div>
 
-        {/* Features */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
-          <div className="bg-white/80 backdrop-blur-sm p-6 rounded-2xl border border-emerald-100 text-center">
-            <Lightbulb className="h-12 w-12 text-emerald-600 mx-auto mb-4" />
-            <h3 className="font-bold text-gray-900 mb-2">IA Contextuelle</h3>
-            <p className="text-gray-600 text-sm">Analyse vos questions et génère des réponses personnalisées en temps réel</p>
-          </div>
-          <div className="bg-white/80 backdrop-blur-sm p-6 rounded-2xl border border-teal-100 text-center">
-            <Target className="h-12 w-12 text-teal-600 mx-auto mb-4" />
-            <h3 className="font-bold text-gray-900 mb-2">Recommandations Précises</h3>
-            <p className="text-gray-600 text-sm">Calculs d'impact et suggestions basées sur votre profil unique</p>
-          </div>
-          <div className="bg-white/80 backdrop-blur-sm p-6 rounded-2xl border border-sky-100 text-center">
-            <TrendingUp className="h-12 w-12 text-sky-600 mx-auto mb-4" />
-            <h3 className="font-bold text-gray-900 mb-2">Apprentissage Continu</h3>
-            <p className="text-gray-600 text-sm">L'IA s'améliore avec chaque interaction pour des conseils toujours plus pertinents</p>
-          </div>
-        </div>
       </div>
     </section>
   );
