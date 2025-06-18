@@ -121,13 +121,13 @@ const EcoGame: React.FC = () => {
 
         {/* Game Stats */}
         <div className="flex justify-center space-x-8 mb-8">
-          <div className="bg-white/80 backdrop-blur-sm px-6 py-3 rounded-2xl border border-purple-100">
+          <div className="bg-white/80 backdrop-blur-sm px-6 py-3 rounded-2xl border border-purple-100 tl-game-stats">
             <div className="flex items-center space-x-2">
               <Star className="h-5 w-5 text-yellow-500" />
               <span className="font-semibold text-gray-900">{score} points</span>
             </div>
           </div>
-          <div className="bg-white/80 backdrop-blur-sm px-6 py-3 rounded-2xl border border-pink-100">
+          <div className="bg-white/80 backdrop-blur-sm px-6 py-3 rounded-2xl border border-pink-100 tl-game-stats">
             <div className="flex items-center space-x-2">
               <Trophy className="h-5 w-5 text-pink-500" />
               <span className="font-semibold text-gray-900">{moves} coups</span>
@@ -135,7 +135,7 @@ const EcoGame: React.FC = () => {
           </div>
           <button
             onClick={resetGame}
-            className="bg-gradient-to-r from-purple-500 to-pink-600 text-white px-6 py-3 rounded-2xl hover:from-purple-600 hover:to-pink-700 transition-all duration-200 flex items-center space-x-2 shadow-lg hover:shadow-xl"
+            className="bg-gradient-to-r from-purple-500 to-pink-600 text-white px-6 py-3 rounded-2xl hover:from-purple-600 hover:to-pink-700 transition-all duration-200 flex items-center space-x-2 shadow-lg hover:shadow-xl tl-game-stats"
           >
             <RotateCcw className="h-4 w-4" />
             <span>Nouvelle partie</span>
